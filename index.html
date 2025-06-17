@@ -1,3 +1,36 @@
-<!-- registro-meu-pr HTML -->
 <!DOCTYPE html>
-<html><head><title>registro-meu-pr</title></head><body></body></html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registro Meu PR</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>📋 Registro Meu PR</h1>
+
+    <section>
+      <input type="text" id="exercicio" placeholder="Exercício" />
+      <input type="number" id="carga" placeholder="Carga máxima" />
+      <select id="unidade">
+        <option value="kg">Kg</option>
+        <option value="lb">Lb</option>
+      </select>
+      <select id="tipo">
+        <option value="LPO">LPO</option>
+        <option value="Musculação">Musculação</option>
+        <option value="Peso Livre">Peso Livre</option>
+      </select>
+      <button onclick="salvarRegistro()">Salvar</button>
+    </section>
+
+    <section>
+      <h2>Meus Registros</h2>
+      <ul id="listaRegistros"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
