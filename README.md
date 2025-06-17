@@ -16,4 +16,4 @@ Aplicação para registrar cargas máximas por exercício, com uso de `localStor
 
 ## 👤 Autora
 Emilly Rodrigues  
-[LinkedIn](https://www.linkedin.com/in/emilly-rodrigues-po/)
+[LinkedIn](https://www.linkedin.com/in/emilly-rodrigues-qa/)
